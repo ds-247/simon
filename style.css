@@ -1,0 +1,46 @@
+body {
+  background-color: #071952;
+  font-family: "Rubik Vinyl", cursive;
+  text-align: center;
+}
+
+h1 {
+  color: #f4e0b9;
+  font-size: 2.5rem;
+}
+
+.container {
+  display: grid;
+  grid: repeat(2, 8rem) / auto-flow 13rem;
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+#green {
+  background-color: #318a02;
+}
+#yellow {
+  background-color: #fcfe02;
+}
+#red {
+  background-color: #f83800;
+}
+#blue {
+  background-color: #4437fd;
+}
+
+.box {
+  border-radius: 18px;
+  margin: 10px;
+  border: thick double #fff;
+}
+
+.pressed {
+  background-color: grey;
+  box-shadow: 4px 4px 6px white;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
